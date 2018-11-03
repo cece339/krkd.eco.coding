@@ -1,0 +1,35 @@
+body {
+  background-color: #0a222b;
+}
+
+.cover-title {
+  font-family: 'Gaegu', cursive;
+  color: #ffffff;
+  text-align: center;
+  font-size: 8em;
+}
+
+.card-definition  {
+  margin:20px;
+  font-family: 'Gaegu', cursive;
+  font-size: 17px;
+
+}
+
+.card-definition dt {
+  margin: 20px;
+  font-family: 'Gaegu', cursive;
+  font-size: 3em;
+  color: #F2F5A9;
+}
+
+.card-definition span {
+  color: #ffffff;
+  display: block;
+  font-size: 1em;
+}
+
+ .card-title {
+   font-family: 'Gaegu', cursive;
+    color: #ffffff
+ }

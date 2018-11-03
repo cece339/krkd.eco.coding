@@ -1,0 +1,98 @@
+li{
+  color: #B030A1;
+  text-decoration:underline;
+  display: none;
+}
+#active{
+  font-size:24px;
+}
+
+
+h1{
+  border-bottom: 20px solid #D8F6CE;
+  padding: 10px;
+  margin: 50px;
+}
+
+li {border-style: dotted;}
+
+#step7-position-relative1 {
+    position: relative;
+    border: solid green 1px;
+  }
+  #step7-position-relative2 {
+    position: relative;
+    border: solid red 1px;
+    top: -20px;
+    left: 20px;
+    background-color: white;
+    width: 500px;
+
+  }
+
+#step7-position-fixed {
+    position: fixed;
+    border: solid yellow 1px;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    background-color: white;
+  }
+
+  #step8-container {
+          position: relative;
+        }
+
+        #nav {
+          position: absolute;
+          left: 0px;
+          width: 200px;
+          background-color: #CEF6E3;
+        }
+
+        #section {
+        margin-left: 200px;
+        border-left: solid black 1px;
+        border-bottom: solid black 1px;
+      }
+
+      #footer {
+
+        position: relative;
+     border-top: solid black 1px;
+     bottom: 0;
+     left: 0;
+     height: 70px;
+     background-color: white;
+     width: 100%;
+   }
+
+#얄루{
+display: grid;
+grid-template-columns: 350px;
+}
+
+body{
+background-color: #CEECF5;
+}
+
+#step3-margin-auto {
+max-width: 400px
+margin: 0   auto;
+border: 3px solid red;
+}
+
+@media screen and (min-width:600px) {
+    nav {
+      float: left;
+      width: 25%;
+    }
+    section {
+      margin-left: 25%;
+    }
+  }
+  @media screen and (max-width:599px) {
+    nav li {
+      display: inline;
+    }
+  }
